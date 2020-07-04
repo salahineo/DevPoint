@@ -1,0 +1,360 @@
+/* Upper Nav */
+
+.upperNav {
+  background-color: #08526d;
+  padding: 12px;
+  font-size: 14px;
+  color: #ebebeb;
+}
+
+/* Navbar */
+
+.navbar-brand span {
+  font-size: 40px;
+  color: #08526d;
+}
+
+.navbar-brand span:last-of-type,
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #ec1d24;
+}
+
+.navbar .navbar-toggler-icon {
+  width: 1.3em;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #08526d;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #ec1d24;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Slider */
+
+.carousel h1 {
+  top: 50%;
+  left: 5%;
+  z-index: 3 !important;
+  transform: translate(0, -50%);
+  font-size: 65px;
+}
+
+@media (max-width: 575px) {
+  .carousel h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    width: 100%;
+  }
+}
+.carousel .overlay {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Features */
+
+.features i {
+  color: #fff;
+  background-color: #ec1d24;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+.features h3 {
+  color: #08526d;
+  font-size: 1.5rem;
+}
+
+.features p {
+  font-size: 0.9rem;
+}
+
+/* Overview */
+
+.overview {
+  background-color: #f0f5f7;
+}
+
+.overview p {
+  line-height: 2;
+}
+
+.overview h3 {
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.overview button {
+  background-color: #ec1d24;
+}
+
+/* Featured Work */
+
+.featured-work .gallery .gallery-item .overlay {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.featured-work .gallery .gallery-item .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.featured-work .gallery .gallery-item .overlay i {
+  font-size: 40px;
+  display: none;
+}
+
+.featured-work .gallery .gallery-item .overlay:hover i {
+  display: block;
+}
+
+/* Posts */
+
+.posts .card {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.posts .card:hover {
+  box-shadow: 0 0 15px #bbb;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .posts .card {
+    max-width: 96% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .posts .card:not(:last-of-type) {
+    max-width: 48% !important;
+    margin: auto;
+    max-height: 539px;
+  }
+}
+
+@media (min-width: 992px) {
+  .posts .card {
+    max-width: 31.33333% !important;
+    max-height: 539px;
+  }
+  .posts .card:not(:last-of-type) {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+}
+
+.posts .card:hover .card-link {
+  color: #ec1d24;
+}
+
+.posts .card .card-title {
+  font-size: 20px;
+}
+
+.posts .card .card-link,
+.posts .card .card-title {
+  color: #08526d;
+}
+
+/* Pricing */
+
+.pricing .card {
+  transition: all 0.3s ease-in-out;
+}
+
+.pricing .card:hover {
+  box-shadow: 0 0 15px #ccc;
+}
+
+.pricing .card .card-body h3.card-title {
+  color: #08526d;
+}
+
+.pricing .card .card-body h2.card-title {
+  color: #08526d;
+  background-color: #f7f7f7;
+}
+
+.pricing .card .card-body h2.card-title.highlighted,
+.pricing .card .card-body button {
+  background-color: #ec1d24;
+}
+
+.pricing .card .card-text {
+  font-size: 18px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .pricing .card {
+    max-width: 90% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pricing .card {
+    max-width: 75% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .pricing .card {
+    max-width: 32.6666666% !important;
+  }
+  .pricing .card:not(:last-of-type) {
+    margin-right: 1%;
+  }
+}
+
+/* Testimonial */
+
+.testimonial {
+  background-image: url("../images/testi-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 450px;
+  max-height: 450px;
+}
+
+.testimonial.carousel .carousel-item img {
+  width: 130px;
+  height: 130px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 5;
+}
+
+.carousel-caption {
+  bottom: 50%;
+  transform: translate(0, 50%);
+}
+
+.carousel-caption span {
+  color: #888;
+}
+
+.carousel-caption p {
+  color: #f0f0f0;
+}
+
+/* Statics */
+
+.statics {
+  color: #08526d;
+}
+
+.statics span {
+  font-size: 40px;
+}
+
+.statics p {
+  color: #ec1d24;
+  font-size: 18px;
+}
+
+/* Contact */
+
+.contact,
+.contact button,
+.contact button:active {
+  background-color: #ec1d24 !important;
+}
+
+.contact button {
+  width: 120px;
+}
+
+/* Footer */
+
+.footer h3,
+.footer ul li,
+.footer i {
+  color: #08526d;
+}
+
+.footer p {
+  line-height: 1.9;
+  letter-spacing: 1px;
+  font-size: 95%;
+}
+
+.footer ul li {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer ul li:hover {
+  color: #ec1d24;
+}
+
+/* Copyright */
+
+.copyright,
+.copyright i {
+  color: #08526d;
+}
+
+.copyright i {
+  transition: all 0.2s ease-in-out;
+  padding: 15px 8px;
+  font-size: 20px;
+}
+
+.copyright i:hover {
+  color: #ec1d24;
+}
+
+/* My Framework */
+
+.section-heading {
+  font-size: 35px;
+}
+
+.section-p.text-secondary {
+  line-height: 2;
+  letter-spacing: 2px;
+}
