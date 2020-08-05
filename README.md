@@ -25,7 +25,7 @@
 
 ### Goal
 
-This project is the 4<sup>th</sup> challenge to me. I coded this project to practice on my knowledge of HTML, CSS, and Bootstrap in real project
+This project is the 4<sup>th</sup> challenge to me. I coded this project to practice on my knowledge of HTML, CSS, JavaScript, and Bootstrap in real project
 
 ### New Techniques
 
