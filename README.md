@@ -53,6 +53,7 @@ Here is the demo link of this [project](https://salahineo.github.io/DevPoint/)
 
 - HTML5
 - CSS3
+- JavaScript
 - Bootstrap4
 
 > This project is fully responsive
