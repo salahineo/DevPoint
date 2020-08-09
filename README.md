@@ -65,11 +65,12 @@ Here is the demo link of this [project](https://salahineo.github.io/DevPoint/)
 
 ### Contact
 
-- [Github](https://github.com/salahineo/)
-- [Twitter](https://twitter.com/salahineo/)
-- [Facebook](https://www.facebook.com/salahineo/)
-- [LinkedIn](https://www.linkedin.com/in/salahineo/)
-- [Send Mail](mailto:eng.mohamedsalah.it@gmail.com)
+- [Facebook](https://facebook.com/salahineo) 😎
+- [Twitter](https://twitter.com/salahineo) 🐤
+- [Github](https://github.com/salahineo) :octocat:
+- [LinkedIn](https://linkedin.com/in/salahineo) 💼
+- [Website](https://salahineo.github.io/Personal/) :globe_with_meridians:
+- <a href="mailto:eng.mohamedsalah.it@gmail.com">Email</a> :love_letter:
 
 ### Copyright and license
 
