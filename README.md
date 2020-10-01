@@ -15,7 +15,7 @@
 
 ### Goal
 
-This project is the 4<sup>th</sup> challenge to me. I coded this project to practice on my knowledge of HTML, CSS, JavaScript, and Bootstrap in real project.
+This is a development company landing page. I coded this project to practice on my knowledge of HTML, CSS, JavaScript, and Bootstrap in real project.
 
 ### Benefits
 
@@ -33,10 +33,10 @@ Here is the demo of this [project](https://salahineo.github.io/DevPoint/)
 
 ### Technologies
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
-- Bootstrap4
+- Bootstrap
 
 > This project is fully responsive
 
