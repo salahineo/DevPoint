@@ -29,7 +29,7 @@ Here are some ideas to benefit from this project:
 
 ### Demo
 
-Here is the demo of this <a href="salahineo.github.io/devpoint/" target="_blank">project</a>
+Here is the demo of this [project](https://salahineo.github.io/DevPoint/)
 
 ### Technologies
 
@@ -42,16 +42,16 @@ Here is the demo of this <a href="salahineo.github.io/devpoint/" target="_blank"
 
 ### Contact
 
-- <a href="https://github.com/salahineo" target="_blank">Github</a> :octocat:
-- <a href="https://github.com/salahineo" target="_blank">LinkedIn</a> 💼
-- <a href="https://github.com/salahineo" target="_blank">Website</a> :globe_with_meridians:
-- <a href="https://github.com/salahineo" target="_blank">Facebook</a> 😎
-- <a href="https://github.com/salahineo" target="_blank">Twitter</a> 🐤
+- [Github](https://github.com/salahineo) :octocat:
+- [LinkedIn](https://linkedin.com/in/salahineo) 💼
+- [Website](https://salahineo.github.io/salahineo/) :globe_with_meridians:
+- [Facebook](https://facebook.com/salahineo) 😎
+- [Twitter](https://twitter.com/salahineo) 🐤
 - <a href="mailto:eng.mohamedsalah.it@gmail.com">Email</a> :email:
 
 ### Copyright and license
 
-- **<a href="https://www.gnu.org/licenses/gpl-3.0" target="_blank">GPLv3</a>**
+- **[GPLv3](https://www.gnu.org/licenses/gpl-3.0)**
 - **© 2020 | Mohamed Salah**
 
 ---
