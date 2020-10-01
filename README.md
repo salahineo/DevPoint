@@ -47,7 +47,7 @@ Here is the demo of this [project](https://salahineo.github.io/DevPoint/)
 - [Website](https://salahineo.github.io/salahineo/) :globe_with_meridians:
 - [Facebook](https://facebook.com/salahineo) 😎
 - [Twitter](https://twitter.com/salahineo) 🐤
-- <a href="mailto:eng.mohamedsalah.it@gmail.com">Email</a> :email:
+- <a href="mailto:salahineo.work@gmail.com">Email</a> :email:
 
 ### Copyright and license
 
