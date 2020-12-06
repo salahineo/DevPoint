@@ -44,9 +44,10 @@ Here is the demo of this [project](https://salahineo.github.io/DevPoint/)
 
 - [Github](https://github.com/salahineo) :octocat:
 - [LinkedIn](https://linkedin.com/in/salahineo) 💼
-- [Website](https://salahineo.github.io/salahineo/) :globe_with_meridians:
 - [Facebook](https://facebook.com/salahineo) 😎
 - [Twitter](https://twitter.com/salahineo) 🐤
+- [Behance](https://www.behance.net/salahineo) :art:
+- [Website](https://salahineo.github.io/salahineo/) :globe_with_meridians:
 - <a href="mailto:salahineo.work@gmail.com">Email</a> :email:
 
 ### Copyright and license
@@ -56,7 +57,7 @@ Here is the demo of this [project](https://salahineo.github.io/DevPoint/)
 
 ---
 
-**If You Find My Work Good, Consider Giving it a :star: or Fork-ing to Show Some :heart:. It Helps Me Stay on Track and Be Motivated.**
+**If you find my work good, consider giving it a :star: or fork-ing to show some :heart:. It helps me stay on track and be motivated.**
 
 > **Explore all of my projects from [Here](https://github.com/salahineo/Projects-Reference)**
 
