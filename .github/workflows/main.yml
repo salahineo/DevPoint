@@ -33,7 +33,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Do Server Actions (e.g. Build, Clear Cache, ...)
         uses: appleboy/ssh-action@v1.1.0
-           with:
+        with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
