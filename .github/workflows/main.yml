@@ -22,6 +22,7 @@ jobs:
           port: ${{ secrets.PORT }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
+            echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
             cd ~/htdocs/devpoint.salahineo.com/
             git pull origin stage
   
@@ -40,5 +41,6 @@ jobs:
           port: ${{ secrets.PORT }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
+            echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
             cd ~/htdocs/devpoint.salahineo.com/
             git pull origin production
