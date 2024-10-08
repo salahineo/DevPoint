@@ -8,7 +8,7 @@ on:
       
 jobs:   
   stage-deploy:
-    if: github.ref == 'refs/heads/staging'
+    if: github.ref == 'refs/heads/stage'
     name: Stage Deployment
     runs-on: ubuntu-latest
     steps:
@@ -23,7 +23,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             cd ~/htdocs/devpoint.salahineo.com/
-            git pull origin production
+            git pull origin stage
   
   production-deploy:
     if: github.ref == 'refs/heads/production'
