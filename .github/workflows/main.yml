@@ -11,6 +11,8 @@ jobs:
     if: github.ref == 'refs/heads/stage'
     name: Stage Deployment
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Do Server Actions (e.g. Build, Clear Cache, ...)
@@ -22,14 +24,17 @@ jobs:
           port: ${{ secrets.PORT }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
-            echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
             cd ~/htdocs/devpoint.salahineo.com/
             gh repo sync --branch stage
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
   production-deploy:
     if: github.ref == 'refs/heads/production'
     name: Production Deployment
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Do Server Actions (e.g. Build, Clear Cache, ...)
@@ -41,6 +46,7 @@ jobs:
           port: ${{ secrets.PORT }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
-            echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
             cd ~/htdocs/devpoint.salahineo.com/
             gh repo sync --branch production
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
