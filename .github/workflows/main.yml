@@ -11,10 +11,11 @@ jobs:
     if: github.ref == 'refs/heads/stage'
     name: Stage Deployment
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - uses: actions/checkout@v4
+      - uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.KEY }}
       - name: Do Server Actions (e.g. Build, Clear Cache, ...)
         uses: appleboy/ssh-action@v1.1.0
         with:
@@ -25,18 +26,17 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             cd ~/htdocs/devpoint.salahineo.com/
-            gh repo sync --branch stage
-    env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            git pull origin stage
   
   production-deploy:
     if: github.ref == 'refs/heads/production'
     name: Production Deployment
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - uses: actions/checkout@v4
+      - uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.KEY }}
       - name: Do Server Actions (e.g. Build, Clear Cache, ...)
         uses: appleboy/ssh-action@v1.1.0
         with:
@@ -47,6 +47,4 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             cd ~/htdocs/devpoint.salahineo.com/
-            gh repo sync --branch production
-    env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            git pull origin production
