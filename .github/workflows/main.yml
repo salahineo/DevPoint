@@ -24,7 +24,7 @@ jobs:
           script: |
             echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
             cd ~/htdocs/devpoint.salahineo.com/
-            git pull origin stage
+            gh repo sync --branch stage
   
   production-deploy:
     if: github.ref == 'refs/heads/production'
@@ -43,4 +43,4 @@ jobs:
           script: |
             echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
             cd ~/htdocs/devpoint.salahineo.com/
-            git pull origin production
+            gh repo sync --branch production
