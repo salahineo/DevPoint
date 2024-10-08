@@ -13,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_GITHUB_KEY }}
       - name: Do Server Actions (e.g. Build, Clear Cache, ...)
         uses: appleboy/ssh-action@v1.1.0
         with:
@@ -34,9 +31,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_GITHUB_KEY }}
       - name: Do Server Actions (e.g. Build, Clear Cache, ...)
         uses: appleboy/ssh-action@v1.1.0
         with:
