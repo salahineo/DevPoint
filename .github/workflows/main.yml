@@ -23,7 +23,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             cd ~/htdocs/devpoint.salahineo.com/DevPoint/
-            git pull origin stage
+            ls -la
   
   production-deploy:
     if: github.ref == 'refs/heads/production'
@@ -41,4 +41,4 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             cd ~/htdocs/devpoint.salahineo.com/DevPoint/
-            git pull origin production
+            ls -la
